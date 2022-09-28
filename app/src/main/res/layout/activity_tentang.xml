@@ -7,16 +7,14 @@
     android:padding="20dp"
     tools:context=".Tentang">
 
-
     <TextView
-        android:text="ini adalah aplikasi belajar intent "
+        android:text="Haldian Kalender"
         android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="80dp"
         android:id="@+id/textView" />
 
     <Button
@@ -25,7 +23,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="500dp"
         android:text="Back to Home" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"/>
+
 
 </RelativeLayout>

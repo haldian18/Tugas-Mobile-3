@@ -12,12 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="300dp"
         android:onClick="panggil"
         android:text="TELEPON" />
 
     <Button
-        android:text="BUKA BROWSER "
+        android:text="Buka Youtube "
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnpgl"
@@ -26,9 +26,8 @@
         android:id="@+id/btnbuka"
         android:onClick="buka"/>
 
-
     <Button
-        android:text="TENTANG APLIKASI"
+        android:text="Kalender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnbuka"
@@ -36,4 +35,21 @@
         android:layout_marginTop="22dp"
         android:id="@+id/btninfo"
         android:onClick="tentang"/>
+
+    <Button
+        android:text="Share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnshare"
+        android:layout_marginTop="500dp"
+        android:onClick="share"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="370dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
 </RelativeLayout>
